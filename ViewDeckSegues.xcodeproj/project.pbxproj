@@ -1,0 +1,106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		6053C1B1182A750200CD35BA /* ViewDeckSetLeftSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDeckSetLeftSegue.h; sourceTree = "<group>"; };
+		6053C1B2182A750200CD35BA /* ViewDeckSetLeftSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDeckSetLeftSegue.m; sourceTree = "<group>"; };
+		6053C1B3182A750200CD35BA /* ViewDeckSetCenterSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDeckSetCenterSegue.h; sourceTree = "<group>"; };
+		6053C1B4182A750200CD35BA /* ViewDeckSetCenterSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDeckSetCenterSegue.m; sourceTree = "<group>"; };
+		6053C1B5182A750200CD35BA /* ViewDeckSetRightSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDeckSetRightSegue.h; sourceTree = "<group>"; };
+		6053C1B6182A750200CD35BA /* ViewDeckSetRightSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDeckSetRightSegue.m; sourceTree = "<group>"; };
+		6053C1B7182A782200CD35BA /* ViewDeckUnsetCenterSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDeckUnsetCenterSegue.h; sourceTree = "<group>"; };
+		6053C1B8182A782200CD35BA /* ViewDeckUnsetCenterSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDeckUnsetCenterSegue.m; sourceTree = "<group>"; };
+		6053C1BB182A7B5D00CD35BA /* ViewDeckUnsetLeftSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDeckUnsetLeftSegue.h; sourceTree = "<group>"; };
+		6053C1BC182A7B5D00CD35BA /* ViewDeckUnsetLeftSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDeckUnsetLeftSegue.m; sourceTree = "<group>"; };
+		6053C1BD182A7B5D00CD35BA /* ViewDeckUnsetRightSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDeckUnsetRightSegue.h; sourceTree = "<group>"; };
+		6053C1BE182A7B5D00CD35BA /* ViewDeckUnsetRightSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDeckUnsetRightSegue.m; sourceTree = "<group>"; };
+		60D48D40182A868100535CE2 /* UIStoryboardSegue+ViewDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryboardSegue+ViewDeck.h"; sourceTree = "<group>"; };
+		60D48D41182A868100535CE2 /* UIStoryboardSegue+ViewDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboardSegue+ViewDeck.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6053C1A9182A74A200CD35BA = {
+			isa = PBXGroup;
+			children = (
+				6053C1B0182A750200CD35BA /* ViewDeckSegues */,
+			);
+			sourceTree = "<group>";
+		};
+		6053C1B0182A750200CD35BA /* ViewDeckSegues */ = {
+			isa = PBXGroup;
+			children = (
+				60D48D40182A868100535CE2 /* UIStoryboardSegue+ViewDeck.h */,
+				60D48D41182A868100535CE2 /* UIStoryboardSegue+ViewDeck.m */,
+				6053C1BB182A7B5D00CD35BA /* ViewDeckUnsetLeftSegue.h */,
+				6053C1BC182A7B5D00CD35BA /* ViewDeckUnsetLeftSegue.m */,
+				6053C1B7182A782200CD35BA /* ViewDeckUnsetCenterSegue.h */,
+				6053C1B8182A782200CD35BA /* ViewDeckUnsetCenterSegue.m */,
+				6053C1BD182A7B5D00CD35BA /* ViewDeckUnsetRightSegue.h */,
+				6053C1BE182A7B5D00CD35BA /* ViewDeckUnsetRightSegue.m */,
+				6053C1B1182A750200CD35BA /* ViewDeckSetLeftSegue.h */,
+				6053C1B2182A750200CD35BA /* ViewDeckSetLeftSegue.m */,
+				6053C1B3182A750200CD35BA /* ViewDeckSetCenterSegue.h */,
+				6053C1B4182A750200CD35BA /* ViewDeckSetCenterSegue.m */,
+				6053C1B5182A750200CD35BA /* ViewDeckSetRightSegue.h */,
+				6053C1B6182A750200CD35BA /* ViewDeckSetRightSegue.m */,
+			);
+			path = ViewDeckSegues;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		6053C1AA182A74A200CD35BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 6053C1AD182A74A200CD35BA /* Build configuration list for PBXProject "ViewDeckSegues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6053C1A9182A74A200CD35BA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		6053C1AE182A74A200CD35BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6053C1AF182A74A200CD35BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6053C1AD182A74A200CD35BA /* Build configuration list for PBXProject "ViewDeckSegues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6053C1AE182A74A200CD35BA /* Debug */,
+				6053C1AF182A74A200CD35BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6053C1AA182A74A200CD35BA /* Project object */;
+}
