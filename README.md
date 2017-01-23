@@ -1,6 +1,6 @@
 # ViewDeckSegues
 
-![Project status](http://stillmaintained.com/ahmet/ViewDeckSegues.png)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 Set of segues to use ViewDeck in storyboards properly.
 
